@@ -1,4 +1,4 @@
 # code-sketches
 mes super projets quooooi
 
-https://arthuraub.github.io/code-sketches2/
+https://arthuraub.github.io/code-sketches/
