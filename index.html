@@ -14,13 +14,15 @@ body {
   padding: 20px;
 }
 
+
+
 h1 {
   font-size: 28px;
   margin-bottom: 4px;
 }
 
 .intro {
-  color: #666;
+color: #666;
   margin-top: 0;
   margin-bottom: 30px;
 }
@@ -30,18 +32,22 @@ h1 {
 
 .gallery {
   display: flex;
-  flex-wrap: wrap;
-  gap: 16px;
+flex-wrap: wrap;
+gap: 16px;
 }
 
 .item {
   width: 220px;
   background: white;
   border: 1px solid #ddd;
-  border-radius: 6px;
-  overflow: hidden;
-  text-decoration: none;
-  color: #222;
+border-radius: 6px;
+ overflow: hidden;
+text-decoration: none;
+color: #222;
+}
+
+.item:hover {
+  border-color: #888;
 }
 
 .item img {
@@ -63,12 +69,12 @@ h1 {
 
 #lightbox {
   display: none;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.8);
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background: rgba(0, 0, 0, 0.8);
 }
 
 #lightbox iframe {
@@ -101,16 +107,16 @@ h1 {
 <div class="gallery">
 
   <a class="item" href="sketches/circles/index.html"><img src="images/circles.png" alt="Cercles"><span>Cercles</span></a>
-  <a class="item" href="sketches/circles-row/index.html"><img src="images/circles-row.png" alt="Effet mal au yeux"><span>Effet mal au yeux</span></a>
-  <a class="item" href="sketches/circles-pulse/index.html"><img src="images/circles-pulse.png" alt="wow"><span>wow</span></a>
+  <a class="item" href="sketches/circles-row/index.html"><img src="images/circles-row.png" alt="Rangée de cercles"><span>Rangée de cercles</span></a>
+  <a class="item" href="sketches/circles-pulse/index.html"><img src="images/circles-pulse.png" alt="Cercles qui pulsent"><span>Cercles qui pulsent</span></a>
   <a class="item" href="sketches/bounce-square/index.html"><img src="images/bounce-square.png" alt="Carré qui rebondit"><span>Carré qui rebondit</span></a>
-  <a class="item" href="sketches/dvd-logo/index.html"><img src="images/dvd-logo.png" alt="trait rebondit"><span>trait rebondit</span></a>
+  <a class="item" href="sketches/dvd-logo/index.html"><img src="images/dvd-logo.png" alt="String art"><span>String art</span></a>
   <a class="item" href="sketches/checkerboard/index.html"><img src="images/checkerboard.png" alt="Damier"><span>Damier</span></a>
   <a class="item" href="sketches/checkerboard-flip/index.html"><img src="images/checkerboard-flip.png" alt="Damier alterné"><span>Damier alterné</span></a>
   <a class="item" href="sketches/mouse-draw/index.html"><img src="images/mouse-draw.png" alt="Dessin à la souris"><span>Dessin à la souris</span></a>
-  <a class="item" href="sketches/bouncy-object-2/index.html"><img src="images/bouncy-object-2.png" alt="eracom trempoline"><span>eracom trempoline</span></a>
+  <a class="item" href="sketches/bouncy-object-2/index.html"><img src="images/bouncy-object-2.png" alt="Objet qui rebondit"><span>Objet qui rebondit</span></a>
   <a class="item" href="sketches/class-flags/index.html"><img src="images/class-flags.png" alt="Drapeaux"><span>Drapeaux (classe)</span></a>
-  <a class="item" href="sketches/waves/index.html"><img src="images/waves.png" alt="vague"><span>vague</span></a>
+  <a class="item" href="sketches/waves/index.html"><img src="images/waves.png" alt="Waves"><span>Waves</span></a>
   <a class="item" href="sketches/degrade/index.html"><img src="images/degrade.png" alt="Dégradé"><span>Dégradé</span></a>
   <a class="item" href="sketches/mandala/index.html"><img src="images/mandala.png" alt="Mandala"><span>Mandala</span></a>
   <a class="item" href="sketches/de/index.html"><img src="images/de.png" alt="Dé"><span>Dé</span></a>
