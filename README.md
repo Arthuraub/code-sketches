@@ -1,4 +1,4 @@
 # code-sketches
 mes supers projets JavaScript!
 
-https://lieuan.github.io/code-sketches/
+https://arthuraub.github.io/code-sketches2/
